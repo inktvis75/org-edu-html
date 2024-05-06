@@ -87,6 +87,7 @@ and that's it!
 - [ ] 9
 - [X] 27
 and that's a bit more difficult.
+
 * COMMENT Config
 #+OPTIONS: toc:nil num:nil
 * COMMENT Lisp
@@ -96,3 +97,8 @@ and that's a bit more difficult.
   (org-export-to-buffer 'edu-html "oeh-test.html")
   (write-file "oeh-test.html")
   (view-mode 1))
+
+# Local Variables:
+# org-edu-html-jquery-address: https://code.jquery.com/jquery-3.7.1.slim.min.js
+# org-edu-html-stylesheet: ./org-edu-html-default.css
+# End:
