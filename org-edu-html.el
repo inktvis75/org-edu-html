@@ -1,7 +1,6 @@
 ;; Org-edu-HTML - HTML-based exporter for educational materials
 
 (require 'ox-html)
-(require 'org-one-to-many)
 (require 'subr-x)			; for string-trim-right
 
 (defvar org-edu-html-split-tag "split"
