@@ -9,13 +9,10 @@ revealed after pressing a button.
 
 * Installation
 Org-Edu-HTML requires Emacs, Org-mode (v8 or higher),
-=org-one-to-many= (see https://github.com/mbork/org-one-to-many), and
-jQuery (see http://jquery.com/).  Also, you might want to have a web
+and jQuery (see http://jquery.com/).  Also, you might want to have a web
 browser with support for JavaScript installed.
 
-Put =org-one-to-many= somewhere where Emacs will find it (e.g., in one
-of the directories listed in =load-path=).  Set
-=org-edu-html-jquery-address= to the (relative or absolute) address of
+Set =org-edu-html-jquery-address= to the (relative or absolute) address of
 the jQuery library.  Set =org-edu-html-stylesheet= if you have your
 own, fancy CSS style.
 
